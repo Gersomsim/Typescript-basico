@@ -5,7 +5,15 @@ interface Pokemon {
     name: string;
     age?: number;
 }
-export const pokemon: Pokemon = {
+export const bulbasaur: Pokemon = {
     id: 1,
     name: 'Bulbasaur'
 }
+
+export const pokemons: Pokemon[] = [];
+
+export const charmander: Pokemon = {
+    id: 4,
+    name: 'charmander'
+}
+pokemons.push(charmander, bulbasaur)
